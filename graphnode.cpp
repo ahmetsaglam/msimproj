@@ -1,17 +1,17 @@
-#include "GraphNode.h"
-GraphNode::GraphNode(int nodeIndex) {
+#include "graphnode.h"
+graphnode::graphnode(int nodeIndex) {
     this->nodeIndex=nodeIndex;
 }
 
-vector<GraphEdge *> &GraphNode::getEdges()  {
+vector<GraphEdge *> &graphnode::getEdges()  {
     return edges;
 }
 
-void GraphNode::setEdges(const vector<GraphEdge *> &edges) {
+void graphnode::setEdges(const vector<GraphEdge *> &edges) {
     GraphNode::edges = edges;
 }
 
-int GraphNode::getNodeIndex()  {
+int graphnode::getNodeIndex()  {
     return nodeIndex;
 }
 
