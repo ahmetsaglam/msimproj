@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/nvidia/graph-algorithms/Graph.cpp
+/home/nvidia/graph-algorithms/Graph.h
+-
+/home/nvidia/graph-algorithms/Graph.cpp
+-
+
+/home/nvidia/graph-algorithms/Graph.h
+iostream
+-
+list
+-
+stack
+-
+
+/home/nvidia/graph-algorithms/main.cpp
+iostream
+-
+list
+-
+stack
+-
+vector
+-
+/home/nvidia/graph-algorithms/Graph.h
+-
+/home/nvidia/graph-algorithms/Graph.cpp
+-
+
